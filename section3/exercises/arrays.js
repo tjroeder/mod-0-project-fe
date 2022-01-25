@@ -24,43 +24,52 @@ console.log(animals[0]);
 
 // YOU DO: Write code below that will log the number of elements in array of
 // animals from above.
-
+console.log(animals.length);
 
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
+animals[animals.length - 1] = 'Gorilla';
 
+console.log(animals[animals.length - 1]);
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
-
+animals.push('Whale');
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
-
+animals.push('Elephant');
+console.log(animals[animals.length - 1]);
 
 //-------------------
 // PART 2: Foods: Array Methods
 //-------------------
 
 // YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
+let foods = ['taco', 'burrito', 'flauta', 'nachos'];
 
 
 // YOU DO: Write code below that will log the number of elements in the array of
 // foods from above.
-
+console.log(foods.length);
 
 // YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 // log the changed array to verify "broccoli" has been added
-
+foods.push('broccoli');
+console.log(foods[foods.length - 1]);
 
 // YOU DO: Write code below that removes the last item of food from the foods array and
 // log the changed array to verify that item has been removed
-
+foods.pop();
+console.log(foods[foods.length - 1]);
 
 // YOU DO: Write code to add 3 new foods to the array. 
   // There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
-
+foods.push('chili relleno', 'quesodilla', 'chimichanga');
+console.log(foods);
 // YOU DO: Remove the food that is in index position 0.
-
+console.log(foods[0])
+foods.shift()
+console.log(foods[0])
 //-------------------
 // PART 3: Where are Arrays used?
 //-------------------
