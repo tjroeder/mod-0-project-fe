@@ -24,9 +24,11 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
 // this should log: true
+console.log('1', numberTeachers < numberStudents)
 
 // YOU DO: log the result of the comparison: is numberTeachers equal to stringTeachers? (use the == operator)
 // this should log: true
+console.log('2', numberTeachers == stringTeachers)
 
 /*
 Note: this is an example of type coercion. Although stringTeachers is a string and numberStudents is an integer,
@@ -36,6 +38,7 @@ perform this evaluation
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
 // this should log: false
+console.log('3', numberTeachers === stringTeachers)
 
 /*
 Note: the strictly equal to operator compares the value of the variable in addition to the type of the variable.
@@ -49,19 +52,23 @@ you develop good habits that follow best practice, from now on, use the strict c
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
+console.log('4', numberTeachers !== numberStudents)
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
 // this should log: true
+console.log('5', numberStudents >= 20)
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
+console.log('6', numberStudents >= 21)
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
 // this should log: true
+console.log('7', numberStudents <= 20)
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
 // this should log: true
-
+console.log('8', numberStudents <= 21)
 
 //-------------------
 // PART 2: Articulating what you are doing
@@ -72,22 +79,22 @@ you develop good habits that follow best practice, from now on, use the strict c
 // Be as technically precise as possible, but don't just copy and paste a definition from the readings.
 // Make sure YOU can explain it that way!
 
-console.log(4 < 9);
-//YOU DO: Explain.
+console.log('9', 4 < 9);
+//YOU DO: Log result of 4 less than 9, which returns true.
 
 var books = 3;
-console.log(4 < books);
-// YOU DO: Explain.
+console.log('10', 4 < books);
+// YOU DO: Log result of 4 less than books variable which is equal to 3, returns false.
 
 var friends = 6;
 var siblings = 2;
-console.log(friends > siblings);
-// YOU DO: Explain.
+console.log('11', friends > siblings);
+// YOU DO: Log result of variables friends less than siblings values, 6 > 2 returns true
 
 var attendees = 9;
 var meals = 8;
-console.log(attendees !== meals);
-// YOU DO: Explain.
+console.log('12', attendees !== meals);
+// YOU DO: Log result of variables attendess not equal to meals, returns true
 
 
 //-------------------
@@ -99,9 +106,9 @@ var finishedHomework = false;
 
 // EXAMPLE:
 // Determine if the user is hungry and has completed their homework
-console.log(isHungry && finishedHomework);
+console.log('13', isHungry && finishedHomework);
 // Determine if the user is hungry or has completed their homework
-console.log(isHungry || finishedHomework);
+console.log('14', isHungry || finishedHomework);
 
 var lovesToPlay = true;
 var lovesDogPark = false;
@@ -110,18 +117,19 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log('15', lovesToPlay && lovesTreats)
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log('16', lovesToPlay && lovesDogPark)
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log('17', lovesToPlay || lovesDogPark)
 
 // Determine if the dog loves to play and is a puppy
+console.log('18', lovesToPlay && (age < 5))
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+// ANSWER: true
 
 //-------------------
 // FINAL CHECK
