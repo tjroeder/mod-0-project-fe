@@ -24,11 +24,11 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
 // this should log: true
-console.log('1', numberTeachers < numberStudents)
+console.log('1', numberTeachers < numberStudents);
 
 // YOU DO: log the result of the comparison: is numberTeachers equal to stringTeachers? (use the == operator)
 // this should log: true
-console.log('2', numberTeachers == stringTeachers)
+console.log('2', numberTeachers == stringTeachers);
 
 /*
 Note: this is an example of type coercion. Although stringTeachers is a string and numberStudents is an integer,
@@ -38,7 +38,7 @@ perform this evaluation
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
 // this should log: false
-console.log('3', numberTeachers === stringTeachers)
+console.log('3', numberTeachers === stringTeachers);
 
 /*
 Note: the strictly equal to operator compares the value of the variable in addition to the type of the variable.
@@ -52,23 +52,23 @@ you develop good habits that follow best practice, from now on, use the strict c
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
-console.log('4', numberTeachers !== numberStudents)
+console.log('4', numberTeachers !== numberStudents);
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
 // this should log: true
-console.log('5', numberStudents >= 20)
+console.log('5', numberStudents >= 20);
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
-console.log('6', numberStudents >= 21)
+console.log('6', numberStudents >= 21);
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
 // this should log: true
-console.log('7', numberStudents <= 20)
+console.log('7', numberStudents <= 20);
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
 // this should log: true
-console.log('8', numberStudents <= 21)
+console.log('8', numberStudents <= 21);
 
 //-------------------
 // PART 2: Articulating what you are doing
@@ -117,16 +117,16 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-console.log('15', lovesToPlay && lovesTreats)
+console.log('15', lovesToPlay && lovesTreats);
 
 // Determine if the dog loves to play and loves the dog park
-console.log('16', lovesToPlay && lovesDogPark)
+console.log('16', lovesToPlay && lovesDogPark);
 
 // Determine if the dog loves to play or loves the dog park
-console.log('17', lovesToPlay || lovesDogPark)
+console.log('17', lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
-console.log('18', lovesToPlay && (age < 5))
+console.log('18', lovesToPlay && (age < 5));
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER: true
